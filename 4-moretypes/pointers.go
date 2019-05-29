@@ -7,10 +7,12 @@ func main() {
 
 	p := &i         // point to i
 	fmt.Println(*p) // read i through the pointer
+	fmt.Println(p)  // read memory address of i
 	*p = 21         // set i through the pointer
 	fmt.Println(i)  // see the new value of i
 
-	p = &j         // point to j
-	*p = *p / 37   // divide j through the pointer
-	fmt.Println(j) // see the new value of j
+	p = &j          // point to j
+	fmt.Println(*p) // read j through the pointer
+	*p = *p / 37    // divide j through the pointer
+	fmt.Println(j)  // see the new value of j
 }
