@@ -19,7 +19,7 @@ func needFloat(x float64) float64 {
 }
 
 func main() {
-	var t = big.NewFloat(Big);
+	var t = big.NewFloat(Big)
 	fmt.Println(t)
 
 	//var BInt = big.NewInt(Big);
